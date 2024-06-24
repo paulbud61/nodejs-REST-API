@@ -3,7 +3,7 @@ import mongoose from "mongoose";
 async function connectToDb() {
   try {
     await mongoose.connect(
-      "mongodb+srv://elenatalmaciu15:il5fTkrOcaiwcHZC@cluster0.hovybqv.mongodb.net/tematreidb"
+      "mongodb+srv://paulbud61:il5fTkrOcaiwcHZC@cluster0.hovybqv.mongodb.net/tematreidb"
     );
     console.log("Database connection successful");
   } catch (error) {
